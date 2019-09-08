@@ -1,0 +1,34 @@
+package JavaRTU;
+
+public class Komerc extends Auto {
+	String tips; //pasazieru,kravas
+	double kravnesiba; //izteikts tonnas
+	double ietilpiba;//litros
+	double tonnaza;//svars
+	int pasazieruSkaits;// 3/9/22
+	
+
+	public Komerc(String markaDots, int gadsDots, String krasaDots, double dzinejaTilpDots, String tipsDots,double kravnesibaDots,double ietilpibaDots,double tonnazaDots,int pasazieruSkaitsDots) {
+		super(markaDots, gadsDots, krasaDots, dzinejaTilpDots);
+		tips= tipsDots;
+		kravnesiba =kravnesibaDots;
+		ietilpiba = ietilpibaDots;
+		tonnaza = tonnazaDots;
+		pasazieruSkaits = pasazieruSkaitsDots;// TODO Auto-generated constructor stub
+	}
+	public String getTips() {
+		return tips;
+	} 
+	public double getKravnesiba() {
+		return kravnesiba;
+	}
+	public double getIetilpiba() {
+		return ietilpiba;
+	}
+	public double getTonnaza() {
+		return tonnaza;
+	}
+	public int getPasazieruSkaits() {
+		return pasazieruSkaits;
+	}
+}
