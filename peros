@@ -1,0 +1,42 @@
+
+
+
+package JavaRTU;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		
+	Auto pasAuto1 = new Auto("Toyota",2019,"melna",2);	
+		
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Lūdzu ievadi marku");
+		String dati1 = input.nextLine();
+		pasAuto1.setMarka(dati1);
+		
+		System.out.println("Lūdzu ievadi gadu");
+		int dati2 = input.nextInt();
+		pasAuto1.setgads(dati2);
+		
+		System.out.println("Lūdzu ievadi krāsu");
+		String dati3 = input.nextLine();
+		pasAuto1.setKrasa(dati3);
+		
+		System.out.println("Lūdzu ievadi dzineja tilp");
+		double dati4 = input.nextInt();
+		pasAuto1.setDzinejaTilp(dati4);
+		
+		
+		
+		
+System.out.println("Pasutijuma dati\n"  + pasAuto1.getMarka()+"\n" + pasAuto1.getKrasa()+ "\n" + pasAuto1.getGads() +"\n"+ pasAuto1.getDzinejaTips()+"Litri\n");
+	
+Komerc Buss1 = new Komerc("Man",2019,"melns",3,"pasazieru",10,500,6,9);
+
+System.out.println("Pasutijuma dati\n"  + "Razotajs " + Buss1.getMarka()  +"\n" + "Krasa "+ Buss1.getKrasa()+ "\n" + "Pirma registracija " + Buss1.getGads() +"\n"+ "Dzineja lielums " + Buss1.getDzinejaTips() +" Litri\n" + "Tips "+ Buss1.getTips()+ "\n"+ "Kravnesiba " +Buss1.getKravnesiba()+ "\n" + "Ietilpiba " + Buss1.getIetilpiba()+ "\n" + "Tonnaza "+  Buss1.getTonnaza() +"\n" + "Pasazieru skaits "+ Buss1.getPasazieruSkaits() );	
+	
+	}
+
+}
