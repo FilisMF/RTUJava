@@ -1,0 +1,44 @@
+package JavaRTU;
+
+public class Auto {
+private String marka;
+private int gads;
+private String krasa;
+private double dzinejaTilp;
+
+
+public Auto (String markaDots,int gadsDots,String krasaDots,double dzinejaTilpDots) {
+	
+	gads= gadsDots;
+	marka =markaDots;
+	krasa = krasaDots;
+	dzinejaTilp = dzinejaTilpDots;
+	
+}
+public void setMarka(String userMarka) {
+	marka = userMarka;
+}
+
+public void setgads(int userGads) {
+	gads = userGads;
+}
+public void setKrasa(String userKrasa) {
+	krasa = userKrasa;
+}
+public void setDzinejaTilp(double userDzinejaTilp) {
+	dzinejaTilp = userDzinejaTilp;
+}
+public String getMarka() {
+	return marka;
+} 
+public int getGads() {
+	return gads;
+}
+public String getKrasa() {
+	return krasa;
+}
+public double getDzinejaTips() {
+	return dzinejaTilp;
+}
+}
+
