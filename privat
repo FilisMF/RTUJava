@@ -1,0 +1,19 @@
+package JavaRTU;
+
+public class Privat extends Auto {
+	
+	private String virsbuvesTips; //sedans,universalis,kupeja
+	private int durvjuSkaits; //4,5
+	private String kompletktacija; //start,premium,lux
+	
+	
+	public Privat(String markaDots, int gadsDots, String krasaDots, double dzinejaTilpDots) {
+		super(markaDots, gadsDots, krasaDots, dzinejaTilpDots);
+		// TODO Auto-generated constructor stub
+		
+		
+		
+		
+	}
+
+}
